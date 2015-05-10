@@ -1,0 +1,783 @@
+2015-05-05 15:23:04.465 [NotebookApp] Using existing profile dir: u'/root/.ipython/profile_default'
+2015-05-05 15:23:04.469 [NotebookApp] Using system MathJax
+2015-05-05 15:23:04.482 [NotebookApp] Serving notebooks from local directory: /root/NYCTaxiData/code/merged
+2015-05-05 15:23:04.482 [NotebookApp] The IPython Notebook is running at: http://158.85.189.101:8889/
+2015-05-05 15:23:04.482 [NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+2015-05-05 15:23:08.994 [NotebookApp] interrupted
+Serving notebooks from local directory: /root/NYCTaxiData/code/merged
+The IPython Notebook is running at: http://158.85.189.101:8889/
+Shutdown this notebook server (y/[n])? Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/usr/lib/python2.7/dist-packages/IPython/html/notebookapp.py", line 635, in _confirm_exit
+    line = sys.stdin.readline()
+IOError: [Errno 9] Bad file descriptor
+
+2015-05-05 15:23:24.406 [NotebookApp] Connecting to: tcp://127.0.0.1:48673
+2015-05-05 15:23:24.408 [NotebookApp] Kernel started: e7461768-3b7c-44c8-9f06-31bbfd9b94c5
+2015-05-05 15:23:24.858 [NotebookApp] Connecting to: tcp://127.0.0.1:39102
+2015-05-05 15:23:24.916 [NotebookApp] Connecting to: tcp://127.0.0.1:56064
+2015-05-05 15:23:24.917 [NotebookApp] Connecting to: tcp://127.0.0.1:36439
+2015-05-05 15:25:33.985 [NotebookApp] Connecting to: tcp://127.0.0.1:49086
+2015-05-05 15:25:33.986 [NotebookApp] Kernel started: 0e285bc6-50a1-4ecb-8183-8d85e8428d7b
+2015-05-05 15:25:35.271 [NotebookApp] Connecting to: tcp://127.0.0.1:56397
+2015-05-05 15:25:35.272 [NotebookApp] Connecting to: tcp://127.0.0.1:43405
+2015-05-05 15:25:35.306 [NotebookApp] Connecting to: tcp://127.0.0.1:47251
+2015-05-05 15:52:13.977 [NotebookApp] Kernel interrupted: e7461768-3b7c-44c8-9f06-31bbfd9b94c5
+2015-05-05 15:53:55.327 [NotebookApp] Using existing kernel: e7461768-3b7c-44c8-9f06-31bbfd9b94c5
+2015-05-05 15:53:55.678 [NotebookApp] Connecting to: tcp://127.0.0.1:39102
+2015-05-05 15:53:55.699 [NotebookApp] Connecting to: tcp://127.0.0.1:56064
+2015-05-05 15:53:55.954 [NotebookApp] Connecting to: tcp://127.0.0.1:36439
+2015-05-05 15:54:35.078 [NotebookApp] Kernel restarted: e7461768-3b7c-44c8-9f06-31bbfd9b94c5
+2015-05-05 15:54:35.104 [NotebookApp] Connecting to: tcp://127.0.0.1:39102
+2015-05-05 15:54:35.128 [NotebookApp] Connecting to: tcp://127.0.0.1:56064
+2015-05-05 15:54:35.152 [NotebookApp] Connecting to: tcp://127.0.0.1:36439
+2015-05-05 15:54:51.201 [NotebookApp] Using existing kernel: e7461768-3b7c-44c8-9f06-31bbfd9b94c5
+2015-05-05 15:54:51.373 [NotebookApp] Connecting to: tcp://127.0.0.1:39102
+2015-05-05 15:54:51.374 [NotebookApp] Connecting to: tcp://127.0.0.1:56064
+2015-05-05 15:54:51.424 [NotebookApp] Connecting to: tcp://127.0.0.1:36439
+2015-05-05 18:09:36.385 [NotebookApp] Using existing profile dir: u'/root/.ipython/profile_default'
+2015-05-05 18:09:36.389 [NotebookApp] Using system MathJax
+2015-05-05 18:09:36.401 [NotebookApp] Serving notebooks from local directory: /root/NYCTaxiData/code/merged
+2015-05-05 18:09:36.401 [NotebookApp] The IPython Notebook is running at: http://158.85.189.101:8888/
+2015-05-05 18:09:36.401 [NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+2015-05-05 18:11:30.903 [tornado.general] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+WARNING:tornado.general:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+2015-05-05 18:11:30.904 [tornado.access] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 12.54ms
+WARNING:tornado.access:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 12.54ms
+2015-05-05 18:13:30.905 [tornado.general] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+WARNING:tornado.general:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+2015-05-05 18:13:30.905 [tornado.access] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 10.20ms
+WARNING:tornado.access:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 10.20ms
+2015-05-05 18:15:30.908 [tornado.general] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+WARNING:tornado.general:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+2015-05-05 18:15:30.909 [tornado.access] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 11.08ms
+WARNING:tornado.access:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 11.08ms
+2015-05-05 18:17:30.907 [tornado.general] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+WARNING:tornado.general:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+2015-05-05 18:17:30.907 [tornado.access] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 12.71ms
+WARNING:tornado.access:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 12.71ms
+2015-05-05 18:19:30.915 [tornado.general] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+WARNING:tornado.general:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+2015-05-05 18:19:30.916 [tornado.access] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 11.57ms
+WARNING:tornado.access:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 11.57ms
+2015-05-05 18:21:30.909 [tornado.general] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+WARNING:tornado.general:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+2015-05-05 18:21:30.909 [tornado.access] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 9.59ms
+WARNING:tornado.access:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 9.59ms
+2015-05-05 18:23:30.926 [tornado.general] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+WARNING:tornado.general:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+2015-05-05 18:23:30.927 [tornado.access] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 16.63ms
+WARNING:tornado.access:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 16.63ms
+2015-05-05 18:25:25.985 [NotebookApp] Connecting to: tcp://127.0.0.1:55423
+2015-05-05 18:25:25.987 [NotebookApp] Kernel started: 90a0ce90-f315-48b6-a3ec-453c094523a1
+2015-05-05 18:25:27.227 [NotebookApp] Connecting to: tcp://127.0.0.1:57622
+2015-05-05 18:25:27.229 [NotebookApp] Connecting to: tcp://127.0.0.1:50806
+2015-05-05 18:25:27.232 [NotebookApp] Connecting to: tcp://127.0.0.1:57580
+2015-05-05 18:25:30.927 [tornado.general] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+WARNING:tornado.general:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+2015-05-05 18:25:30.928 [tornado.access] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 14.91ms
+WARNING:tornado.access:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 14.91ms
+2015-05-05 18:27:30.930 [tornado.general] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+WARNING:tornado.general:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+2015-05-05 18:27:30.930 [tornado.access] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 10.91ms
+WARNING:tornado.access:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 10.91ms
+2015-05-05 18:28:43.539 [NotebookApp] Connecting to: tcp://127.0.0.1:55764
+2015-05-05 18:28:43.540 [NotebookApp] Kernel started: 445a930b-2925-4a71-afa8-56b4b1309f4c
+2015-05-05 18:28:43.702 [NotebookApp] Connecting to: tcp://127.0.0.1:41457
+2015-05-05 18:28:44.735 [NotebookApp] Connecting to: tcp://127.0.0.1:49289
+2015-05-05 18:28:44.755 [NotebookApp] Connecting to: tcp://127.0.0.1:51096
+2015-05-05 18:29:30.937 [tornado.general] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+WARNING:tornado.general:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+2015-05-05 18:29:30.937 [tornado.access] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 11.40ms
+WARNING:tornado.access:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 11.40ms
+2015-05-05 18:31:30.943 [tornado.general] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+WARNING:tornado.general:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+2015-05-05 18:31:30.943 [tornado.access] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 12.72ms
+WARNING:tornado.access:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 12.72ms
+2015-05-05 18:33:30.951 [tornado.general] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+WARNING:tornado.general:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+2015-05-05 18:33:30.951 [tornado.access] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 12.01ms
+WARNING:tornado.access:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 12.01ms
+2015-05-05 18:35:30.947 [tornado.general] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+WARNING:tornado.general:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+2015-05-05 18:35:30.948 [tornado.access] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 10.88ms
+WARNING:tornado.access:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 10.88ms
+2015-05-05 18:36:18.339 [tornado.general] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+WARNING:tornado.general:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+2015-05-05 18:36:18.340 [tornado.access] WARNING | 404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 14.46ms
+WARNING:tornado.access:404 PUT /notebooks/96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 14.46ms
+2015-05-05 18:36:25.082 [tornado.general] WARNING | 404 GET /96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+WARNING:tornado.general:404 GET /96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128): Notebook does not exist: 96e72069-a051-41c9-ae7a-0021d701b658
+2015-05-05 18:36:25.082 [tornado.access] WARNING | 404 GET /96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 0.90ms
+WARNING:tornado.access:404 GET /96e72069-a051-41c9-ae7a-0021d701b658 (136.152.142.128) 0.90ms
+2015-05-05 18:36:25.230 [tornado.access] WARNING | 404 GET /favicon.ico (136.152.142.128) 0.41ms
+WARNING:tornado.access:404 GET /favicon.ico (136.152.142.128) 0.41ms
+2015-05-05 18:36:31.521 [NotebookApp] Using existing kernel: 90a0ce90-f315-48b6-a3ec-453c094523a1
+2015-05-05 18:36:31.679 [NotebookApp] Connecting to: tcp://127.0.0.1:57622
+2015-05-05 18:36:31.781 [NotebookApp] Connecting to: tcp://127.0.0.1:50806
+2015-05-05 18:36:31.864 [NotebookApp] Connecting to: tcp://127.0.0.1:57580
+2015-05-05 18:54:23.300 [NotebookApp] Using existing kernel: 90a0ce90-f315-48b6-a3ec-453c094523a1
+2015-05-05 18:54:27.176 [NotebookApp] Connecting to: tcp://127.0.0.1:57622
+2015-05-05 18:54:27.309 [NotebookApp] Connecting to: tcp://127.0.0.1:50806
+2015-05-05 18:54:27.432 [NotebookApp] Connecting to: tcp://127.0.0.1:57580
+2015-05-05 18:54:36.628 [tornado.access] WARNING | 404 GET /mathjax/fonts/HTML-CSS/TeX/png/imagedata.js (136.152.142.178) 3.14ms
+WARNING:tornado.access:404 GET /mathjax/fonts/HTML-CSS/TeX/png/imagedata.js (136.152.142.178) 3.14ms
+2015-05-05 18:58:33.957 [NotebookApp] Connecting to: tcp://127.0.0.1:43822
+2015-05-05 18:58:33.958 [NotebookApp] Kernel started: c34643a7-6a79-481e-8c5a-71931cac03e9
+2015-05-05 18:58:37.356 [NotebookApp] Connecting to: tcp://127.0.0.1:43112
+2015-05-05 18:58:37.604 [NotebookApp] Connecting to: tcp://127.0.0.1:37983
+2015-05-05 18:58:37.760 [NotebookApp] Connecting to: tcp://127.0.0.1:42885
+2015-05-05 18:58:59.462 [NotebookApp] Using existing kernel: c34643a7-6a79-481e-8c5a-71931cac03e9
+2015-05-05 18:59:05.042 [NotebookApp] Connecting to: tcp://127.0.0.1:43112
+2015-05-05 18:59:05.674 [NotebookApp] Connecting to: tcp://127.0.0.1:37983
+2015-05-05 18:59:05.760 [NotebookApp] Connecting to: tcp://127.0.0.1:42885
+2015-05-05 19:02:13.993 [NotebookApp] KernelRestarter: restarting kernel (1/5)
+WARNING:root:kernel 90a0ce90-f315-48b6-a3ec-453c094523a1 restarted
+WARNING:root:kernel 90a0ce90-f315-48b6-a3ec-453c094523a1 restarted
+2015-05-05 19:18:09.958 [tornado.general] WARNING | error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 110] Connection timed out
+WARNING:tornado.general:error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 110] Connection timed out
+2015-05-05 20:37:18.870 [NotebookApp] Connecting to: tcp://127.0.0.1:49289
+2015-05-05 20:37:19.922 [NotebookApp] Connecting to: tcp://127.0.0.1:51096
+2015-05-05 20:37:20.323 [NotebookApp] Connecting to: tcp://127.0.0.1:57622
+2015-05-05 20:37:20.601 [NotebookApp] Connecting to: tcp://127.0.0.1:50806
+2015-05-05 20:37:20.824 [NotebookApp] Connecting to: tcp://127.0.0.1:57580
+2015-05-05 20:37:20.847 [NotebookApp] Connecting to: tcp://127.0.0.1:41457
+2015-05-05 21:02:47.047 [NotebookApp] Using existing kernel: 90a0ce90-f315-48b6-a3ec-453c094523a1
+2015-05-05 21:02:47.214 [NotebookApp] Connecting to: tcp://127.0.0.1:57622
+2015-05-05 21:02:47.414 [NotebookApp] Connecting to: tcp://127.0.0.1:50806
+2015-05-05 21:02:47.415 [NotebookApp] Connecting to: tcp://127.0.0.1:57580
+2015-05-05 21:04:09.388 [NotebookApp] Using existing kernel: 445a930b-2925-4a71-afa8-56b4b1309f4c
+2015-05-05 21:04:09.622 [NotebookApp] Connecting to: tcp://127.0.0.1:41457
+2015-05-05 21:04:09.623 [NotebookApp] Connecting to: tcp://127.0.0.1:49289
+2015-05-05 21:04:10.019 [NotebookApp] Connecting to: tcp://127.0.0.1:51096
+2015-05-05 21:04:22.571 [NotebookApp] KernelRestarter: restarting kernel (1/5)
+WARNING:root:kernel 445a930b-2925-4a71-afa8-56b4b1309f4c restarted
+WARNING:root:kernel 445a930b-2925-4a71-afa8-56b4b1309f4c restarted
+2015-05-05 21:05:07.618 [NotebookApp] Using existing kernel: 445a930b-2925-4a71-afa8-56b4b1309f4c
+2015-05-05 21:05:08.975 [NotebookApp] Connecting to: tcp://127.0.0.1:41457
+2015-05-05 21:05:09.554 [NotebookApp] Connecting to: tcp://127.0.0.1:49289
+2015-05-05 21:05:09.562 [NotebookApp] Connecting to: tcp://127.0.0.1:51096
+2015-05-05 21:06:21.966 [NotebookApp] KernelRestarter: restarting kernel (1/5)
+WARNING:root:kernel c34643a7-6a79-481e-8c5a-71931cac03e9 restarted
+2015-05-05 21:17:31.353 [NotebookApp] Using existing kernel: 445a930b-2925-4a71-afa8-56b4b1309f4c
+2015-05-05 21:17:31.917 [NotebookApp] Connecting to: tcp://127.0.0.1:49289
+2015-05-05 21:17:31.918 [NotebookApp] Connecting to: tcp://127.0.0.1:41457
+2015-05-05 21:17:31.918 [NotebookApp] Connecting to: tcp://127.0.0.1:51096
+2015-05-05 21:18:52.774 [NotebookApp] Using existing kernel: 445a930b-2925-4a71-afa8-56b4b1309f4c
+2015-05-05 21:18:54.099 [NotebookApp] Connecting to: tcp://127.0.0.1:41457
+2015-05-05 21:18:54.125 [NotebookApp] Connecting to: tcp://127.0.0.1:49289
+2015-05-05 21:18:54.154 [NotebookApp] Connecting to: tcp://127.0.0.1:51096
+2015-05-05 21:19:45.957 [tornado.general] WARNING | error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 110] Connection timed out
+WARNING:tornado.general:error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 110] Connection timed out
+2015-05-05 21:19:46.486 [NotebookApp] Using existing kernel: 445a930b-2925-4a71-afa8-56b4b1309f4c
+2015-05-05 21:19:55.624 [NotebookApp] Connecting to: tcp://127.0.0.1:41457
+2015-05-05 21:19:55.673 [NotebookApp] Connecting to: tcp://127.0.0.1:49289
+2015-05-05 21:19:56.721 [NotebookApp] Connecting to: tcp://127.0.0.1:51096
+2015-05-05 21:20:24.869 [tornado.general] WARNING | error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 110] Connection timed out
+WARNING:tornado.general:error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 110] Connection timed out
+2015-05-05 21:20:36.461 [NotebookApp] Connecting to: tcp://127.0.0.1:57622
+2015-05-05 21:20:36.482 [NotebookApp] Connecting to: tcp://127.0.0.1:50806
+2015-05-05 21:20:36.504 [NotebookApp] Connecting to: tcp://127.0.0.1:57580
+2015-05-05 21:21:11.461 [NotebookApp] KernelRestarter: restarting kernel (1/5)
+WARNING:root:kernel 90a0ce90-f315-48b6-a3ec-453c094523a1 restarted
+WARNING:root:kernel 90a0ce90-f315-48b6-a3ec-453c094523a1 restarted
+2015-05-05 21:22:22.118 [tornado.general] WARNING | error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 110] Connection timed out
+WARNING:tornado.general:error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 110] Connection timed out
+2015-05-05 21:22:32.098 [NotebookApp] Using existing kernel: 445a930b-2925-4a71-afa8-56b4b1309f4c
+2015-05-05 21:22:32.278 [NotebookApp] Connecting to: tcp://127.0.0.1:41457
+2015-05-05 21:22:32.281 [NotebookApp] Connecting to: tcp://127.0.0.1:49289
+2015-05-05 21:22:33.124 [NotebookApp] Using existing kernel: c34643a7-6a79-481e-8c5a-71931cac03e9
+2015-05-05 21:22:33.969 [NotebookApp] Connecting to: tcp://127.0.0.1:43112
+2015-05-05 21:22:34.207 [NotebookApp] Connecting to: tcp://127.0.0.1:37983
+2015-05-05 21:22:34.390 [NotebookApp] Connecting to: tcp://127.0.0.1:42885
+2015-05-05 21:22:42.032 [NotebookApp] Connecting to: tcp://127.0.0.1:51096
+2015-05-05 21:26:55.724 [NotebookApp] KernelRestarter: restarting kernel (1/5)
+WARNING:root:kernel 445a930b-2925-4a71-afa8-56b4b1309f4c restarted
+2015-05-05 21:37:54.473 [tornado.general] WARNING | error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 110] Connection timed out
+WARNING:tornado.general:error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 110] Connection timed out
+2015-05-05 21:37:56.606 [NotebookApp] Using existing profile dir: u'/root/.ipython/profile_default'
+2015-05-05 21:37:56.621 [NotebookApp] Using system MathJax
+2015-05-05 21:37:56.656 [NotebookApp] Serving notebooks from local directory: /root/NYCTaxiData/code/merged
+2015-05-05 21:37:56.656 [NotebookApp] The IPython Notebook is running at: http://158.85.189.101:8889/
+2015-05-05 21:37:56.656 [NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+2015-05-05 21:38:07.032 [NotebookApp] Connecting to: tcp://127.0.0.1:47081
+2015-05-05 21:38:07.034 [NotebookApp] Kernel started: 764be313-a0f5-4160-89fc-246cdf153b03
+2015-05-05 21:38:07.153 [NotebookApp] Connecting to: tcp://127.0.0.1:37919
+2015-05-05 21:38:07.153 [NotebookApp] Connecting to: tcp://127.0.0.1:58920
+2015-05-05 21:38:07.154 [NotebookApp] Connecting to: tcp://127.0.0.1:45860
+2015-05-05 21:40:53.069 [NotebookApp] Connecting to: tcp://127.0.0.1:37583
+2015-05-05 21:40:53.069 [NotebookApp] Kernel started: c5a8177b-131c-4f7f-b75b-afe48ca6db83
+2015-05-05 21:40:53.356 [NotebookApp] Connecting to: tcp://127.0.0.1:35344
+2015-05-05 21:40:53.484 [NotebookApp] Connecting to: tcp://127.0.0.1:40576
+2015-05-05 21:40:53.506 [NotebookApp] Connecting to: tcp://127.0.0.1:34040
+2015-05-05 21:43:15.493 [tornado.general] WARNING | error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 110] Connection timed out
+WARNING:tornado.general:error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 110] Connection timed out
+2015-05-05 21:49:33.791 [NotebookApp] Kernel interrupted: 764be313-a0f5-4160-89fc-246cdf153b03
+2015-05-05 21:50:16.414 [NotebookApp] Kernel restarted: 764be313-a0f5-4160-89fc-246cdf153b03
+2015-05-05 21:50:16.522 [NotebookApp] Connecting to: tcp://127.0.0.1:37919
+2015-05-05 21:50:16.523 [NotebookApp] Connecting to: tcp://127.0.0.1:58920
+2015-05-05 21:50:16.543 [NotebookApp] Connecting to: tcp://127.0.0.1:45860
+2015-05-05 21:53:48.307 [NotebookApp] Using existing kernel: 445a930b-2925-4a71-afa8-56b4b1309f4c
+2015-05-05 21:53:48.513 [NotebookApp] Connecting to: tcp://127.0.0.1:41457
+2015-05-05 21:53:57.468 [NotebookApp] Connecting to: tcp://127.0.0.1:49289
+2015-05-05 21:53:57.496 [NotebookApp] Connecting to: tcp://127.0.0.1:51096
+2015-05-05 21:55:13.083 [NotebookApp] KernelRestarter: restarting kernel (1/5)
+WARNING:root:kernel c34643a7-6a79-481e-8c5a-71931cac03e9 restarted
+2015-05-05 21:57:25.411 [NotebookApp] Using existing kernel: 764be313-a0f5-4160-89fc-246cdf153b03
+2015-05-05 21:57:25.680 [NotebookApp] Connecting to: tcp://127.0.0.1:37919
+2015-05-05 21:57:25.683 [NotebookApp] Connecting to: tcp://127.0.0.1:58920
+2015-05-05 21:57:25.683 [NotebookApp] Connecting to: tcp://127.0.0.1:45860
+2015-05-05 21:57:46.182 [NotebookApp] Using existing kernel: 764be313-a0f5-4160-89fc-246cdf153b03
+2015-05-05 21:57:46.337 [NotebookApp] Connecting to: tcp://127.0.0.1:37919
+2015-05-05 21:57:46.338 [NotebookApp] Connecting to: tcp://127.0.0.1:58920
+2015-05-05 21:57:46.338 [NotebookApp] Connecting to: tcp://127.0.0.1:45860
+2015-05-05 21:58:13.949 [NotebookApp] Using existing kernel: 764be313-a0f5-4160-89fc-246cdf153b03
+2015-05-05 21:58:14.125 [NotebookApp] Connecting to: tcp://127.0.0.1:37919
+2015-05-05 21:58:14.125 [NotebookApp] Connecting to: tcp://127.0.0.1:58920
+2015-05-05 21:58:14.126 [NotebookApp] Connecting to: tcp://127.0.0.1:45860
+2015-05-05 21:58:18.258 [NotebookApp] Using existing kernel: 764be313-a0f5-4160-89fc-246cdf153b03
+2015-05-05 21:58:18.401 [NotebookApp] Connecting to: tcp://127.0.0.1:37919
+2015-05-05 21:58:18.403 [NotebookApp] Connecting to: tcp://127.0.0.1:58920
+2015-05-05 21:58:18.426 [NotebookApp] Connecting to: tcp://127.0.0.1:45860
+2015-05-05 21:58:31.210 [NotebookApp] Using existing kernel: 764be313-a0f5-4160-89fc-246cdf153b03
+2015-05-05 21:58:31.482 [NotebookApp] Connecting to: tcp://127.0.0.1:37919
+2015-05-05 21:58:31.483 [NotebookApp] Connecting to: tcp://127.0.0.1:58920
+2015-05-05 21:58:31.483 [NotebookApp] Connecting to: tcp://127.0.0.1:45860
+2015-05-05 22:03:19.486 [NotebookApp] Using existing profile dir: u'/root/.ipython/profile_default'
+2015-05-05 22:03:19.489 [NotebookApp] Using system MathJax
+2015-05-05 22:03:19.502 [NotebookApp] Serving notebooks from local directory: /root/NYCTaxiData/code/merged
+2015-05-05 22:03:19.502 [NotebookApp] The IPython Notebook is running at: http://158.85.189.101:8888/
+2015-05-05 22:03:19.502 [NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+2015-05-05 22:03:28.790 [NotebookApp] Using existing profile dir: u'/root/.ipython/profile_default'
+2015-05-05 22:03:28.794 [NotebookApp] Using system MathJax
+2015-05-05 22:03:28.807 [NotebookApp] Serving notebooks from local directory: /root/NYCTaxiData/code/merged
+2015-05-05 22:03:28.807 [NotebookApp] The IPython Notebook is running at: http://158.85.189.101:8889/
+2015-05-05 22:03:28.807 [NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+2015-05-05 22:03:38.152 [NotebookApp] Using existing profile dir: u'/root/.ipython/profile_default'
+2015-05-05 22:03:38.156 [NotebookApp] Using system MathJax
+2015-05-05 22:03:38.168 [NotebookApp] Serving notebooks from local directory: /root/NYCTaxiData/code/merged
+2015-05-05 22:03:38.168 [NotebookApp] The IPython Notebook is running at: http://158.85.189.101:8890/
+2015-05-05 22:03:38.168 [NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+2015-05-05 22:03:57.198 [NotebookApp] Connecting to: tcp://127.0.0.1:32920
+2015-05-05 22:03:57.200 [NotebookApp] Kernel started: 3fc02450-9250-4b75-819c-3f6496313a7b
+2015-05-05 22:03:57.337 [NotebookApp] Connecting to: tcp://127.0.0.1:34907
+2015-05-05 22:03:57.339 [NotebookApp] Connecting to: tcp://127.0.0.1:59270
+2015-05-05 22:03:57.575 [NotebookApp] Connecting to: tcp://127.0.0.1:41980
+2015-05-05 22:04:00.141 [NotebookApp] Connecting to: tcp://127.0.0.1:33639
+2015-05-05 22:04:00.143 [NotebookApp] Kernel started: b818718a-44b4-4378-91be-8a0e056856f1
+2015-05-05 22:04:01.580 [NotebookApp] Connecting to: tcp://127.0.0.1:33345
+2015-05-05 22:04:01.581 [NotebookApp] Connecting to: tcp://127.0.0.1:43853
+2015-05-05 22:04:01.723 [NotebookApp] Connecting to: tcp://127.0.0.1:51741
+2015-05-05 22:04:18.155 [NotebookApp] Connecting to: tcp://127.0.0.1:60700
+2015-05-05 22:04:18.157 [NotebookApp] Kernel started: 804c0fec-bbb0-4602-ac54-38bda64d97ac
+2015-05-05 22:04:21.090 [NotebookApp] Connecting to: tcp://127.0.0.1:39576
+2015-05-05 22:04:21.250 [NotebookApp] Connecting to: tcp://127.0.0.1:33122
+2015-05-05 22:04:21.331 [NotebookApp] Connecting to: tcp://127.0.0.1:60694
+2015-05-05 22:05:18.184 [NotebookApp] KernelRestarter: restarting kernel (1/5)
+WARNING:root:kernel b818718a-44b4-4378-91be-8a0e056856f1 restarted
+2015-05-05 22:06:14.751 [NotebookApp] Using existing kernel: b818718a-44b4-4378-91be-8a0e056856f1
+2015-05-05 22:06:15.095 [NotebookApp] Connecting to: tcp://127.0.0.1:33345
+2015-05-05 22:06:15.104 [NotebookApp] Connecting to: tcp://127.0.0.1:43853
+2015-05-05 22:06:15.150 [NotebookApp] Connecting to: tcp://127.0.0.1:51741
+2015-05-05 22:06:46.107 [NotebookApp] KernelRestarter: restarting kernel (1/5)
+WARNING:root:kernel 804c0fec-bbb0-4602-ac54-38bda64d97ac restarted
+2015-05-05 22:08:04.874 [NotebookApp] Using existing kernel: 804c0fec-bbb0-4602-ac54-38bda64d97ac
+2015-05-05 22:08:05.972 [NotebookApp] Connecting to: tcp://127.0.0.1:39576
+2015-05-05 22:08:06.079 [NotebookApp] Connecting to: tcp://127.0.0.1:33122
+2015-05-05 22:08:06.235 [NotebookApp] Connecting to: tcp://127.0.0.1:60694
+2015-05-05 22:09:25.098 [NotebookApp] KernelRestarter: restarting kernel (1/5)
+WARNING:root:kernel 3fc02450-9250-4b75-819c-3f6496313a7b restarted
+2015-05-05 22:13:55.464 [NotebookApp] Connecting to: tcp://127.0.0.1:54358
+2015-05-05 22:13:55.467 [NotebookApp] Kernel started: 713ed9b3-4735-499b-8941-d6e16c1882a6
+2015-05-05 22:13:56.586 [NotebookApp] Connecting to: tcp://127.0.0.1:48073
+2015-05-05 22:13:56.719 [NotebookApp] Connecting to: tcp://127.0.0.1:52717
+2015-05-05 22:13:56.720 [NotebookApp] Connecting to: tcp://127.0.0.1:33135
+2015-05-05 22:27:36.481 [NotebookApp] Connecting to: tcp://127.0.0.1:44174
+2015-05-05 22:27:36.481 [NotebookApp] Kernel started: e064905f-9fe1-4cc5-ac8b-bf3c63bf88df
+2015-05-05 22:27:36.846 [NotebookApp] Kernel interrupted: b818718a-44b4-4378-91be-8a0e056856f1
+2015-05-05 22:27:37.924 [NotebookApp] Connecting to: tcp://127.0.0.1:39999
+2015-05-05 22:27:37.925 [NotebookApp] Connecting to: tcp://127.0.0.1:55099
+2015-05-05 22:27:37.939 [NotebookApp] Connecting to: tcp://127.0.0.1:37489
+2015-05-05 22:31:27.633 [NotebookApp] KernelRestarter: restarting kernel (1/5)
+WARNING:root:kernel b818718a-44b4-4378-91be-8a0e056856f1 restarted
+2015-05-05 22:32:36.474 [NotebookApp] Using existing kernel: b818718a-44b4-4378-91be-8a0e056856f1
+2015-05-05 22:32:36.787 [NotebookApp] Connecting to: tcp://127.0.0.1:33345
+2015-05-05 22:32:36.814 [NotebookApp] Connecting to: tcp://127.0.0.1:43853
+2015-05-05 22:32:37.865 [NotebookApp] Connecting to: tcp://127.0.0.1:51741
+2015-05-05 22:33:00.841 [NotebookApp] Using existing kernel: e064905f-9fe1-4cc5-ac8b-bf3c63bf88df
+2015-05-05 22:33:02.118 [NotebookApp] Connecting to: tcp://127.0.0.1:39999
+2015-05-05 22:33:02.118 [NotebookApp] Connecting to: tcp://127.0.0.1:55099
+2015-05-05 22:33:02.124 [NotebookApp] Connecting to: tcp://127.0.0.1:37489
+2015-05-05 22:45:06.765 [NotebookApp] Using existing kernel: 713ed9b3-4735-499b-8941-d6e16c1882a6
+2015-05-05 22:45:08.080 [NotebookApp] Connecting to: tcp://127.0.0.1:48073
+2015-05-05 22:45:08.084 [NotebookApp] Connecting to: tcp://127.0.0.1:52717
+2015-05-05 22:45:08.084 [NotebookApp] Connecting to: tcp://127.0.0.1:33135
+2015-05-05 23:03:32.267 [NotebookApp] Using existing kernel: 713ed9b3-4735-499b-8941-d6e16c1882a6
+2015-05-05 23:03:33.534 [NotebookApp] Connecting to: tcp://127.0.0.1:48073
+2015-05-05 23:03:33.535 [NotebookApp] Connecting to: tcp://127.0.0.1:52717
+2015-05-05 23:03:33.550 [NotebookApp] Connecting to: tcp://127.0.0.1:33135
+2015-05-06 00:35:48.319 [NotebookApp] Connecting to: tcp://127.0.0.1:33345
+2015-05-06 00:35:57.498 [NotebookApp] Connecting to: tcp://127.0.0.1:43853
+2015-05-06 00:35:57.520 [NotebookApp] Connecting to: tcp://127.0.0.1:51741
+2015-05-06 00:39:19.199 [NotebookApp] Connecting to: tcp://127.0.0.1:39576
+2015-05-06 00:39:19.361 [NotebookApp] Connecting to: tcp://127.0.0.1:33122
+2015-05-06 00:39:19.482 [NotebookApp] Connecting to: tcp://127.0.0.1:60694
+2015-05-06 00:40:29.078 [NotebookApp] Using existing kernel: 804c0fec-bbb0-4602-ac54-38bda64d97ac
+2015-05-06 00:40:31.568 [NotebookApp] Connecting to: tcp://127.0.0.1:39576
+2015-05-06 00:40:56.750 [NotebookApp] Connecting to: tcp://127.0.0.1:39576
+2015-05-06 00:41:16.408 [NotebookApp] Using existing kernel: b818718a-44b4-4378-91be-8a0e056856f1
+2015-05-06 00:41:17.187 [NotebookApp] Connecting to: tcp://127.0.0.1:33345
+2015-05-06 00:41:17.207 [NotebookApp] Connecting to: tcp://127.0.0.1:43853
+2015-05-06 00:41:17.208 [NotebookApp] Connecting to: tcp://127.0.0.1:51741
+2015-05-06 00:41:21.870 [NotebookApp] Connecting to: tcp://127.0.0.1:39576
+2015-05-06 00:41:46.903 [NotebookApp] Connecting to: tcp://127.0.0.1:39576
+2015-05-06 00:41:46.997 [NotebookApp] Connecting to: tcp://127.0.0.1:33122
+2015-05-06 00:43:07.959 [NotebookApp] KernelRestarter: restarting kernel (1/5)
+WARNING:root:kernel 804c0fec-bbb0-4602-ac54-38bda64d97ac restarted
+2015-05-06 00:44:41.572 [NotebookApp] Using existing kernel: 804c0fec-bbb0-4602-ac54-38bda64d97ac
+2015-05-06 00:49:13.100 [NotebookApp] Kernel shutdown: 804c0fec-bbb0-4602-ac54-38bda64d97ac
+2015-05-06 00:49:30.399 [NotebookApp] Connecting to: tcp://127.0.0.1:58579
+2015-05-06 00:49:30.399 [NotebookApp] Kernel started: 78d266af-e714-43f4-84e1-facd0067db76
+2015-05-06 00:50:48.010 [NotebookApp] Connecting to: tcp://127.0.0.1:50046
+2015-05-06 00:50:48.016 [NotebookApp] Kernel started: 1ff0b395-635d-4226-9928-902add165d6a
+2015-05-06 00:50:49.948 [NotebookApp] Connecting to: tcp://127.0.0.1:36065
+2015-05-06 00:50:50.519 [NotebookApp] Connecting to: tcp://127.0.0.1:60111
+2015-05-06 00:51:15.684 [NotebookApp] Connecting to: tcp://127.0.0.1:36065
+2015-05-06 00:51:15.734 [NotebookApp] Connecting to: tcp://127.0.0.1:60111
+2015-05-06 00:51:15.785 [NotebookApp] Connecting to: tcp://127.0.0.1:47729
+2015-05-06 00:56:39.462 [tornado.general] WARNING | error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 110] Connection timed out
+WARNING:tornado.general:error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 110] Connection timed out
+2015-05-06 00:58:20.326 [tornado.general] WARNING | error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 110] Connection timed out
+WARNING:tornado.general:error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 110] Connection timed out
+2015-05-06 01:27:21.588 [NotebookApp] Connecting to: tcp://127.0.0.1:47900
+2015-05-06 01:27:21.588 [NotebookApp] Kernel started: 5f9a6286-bc9e-4cc3-915c-3a436deffb9f
+2015-05-06 01:27:24.144 [NotebookApp] Connecting to: tcp://127.0.0.1:51691
+2015-05-06 01:27:26.229 [NotebookApp] Connecting to: tcp://127.0.0.1:34431
+2015-05-06 01:27:26.292 [NotebookApp] Connecting to: tcp://127.0.0.1:33911
+2015-05-06 02:15:01.217 [NotebookApp] Using existing kernel: e064905f-9fe1-4cc5-ac8b-bf3c63bf88df
+2015-05-06 02:15:02.458 [NotebookApp] Connecting to: tcp://127.0.0.1:39999
+2015-05-06 02:15:02.465 [NotebookApp] Connecting to: tcp://127.0.0.1:55099
+2015-05-06 02:15:02.497 [NotebookApp] Connecting to: tcp://127.0.0.1:37489
+2015-05-06 02:24:13.347 [NotebookApp] Kernel interrupted: b818718a-44b4-4378-91be-8a0e056856f1
+2015-05-06 02:27:36.869 [NotebookApp] Kernel restarted: b818718a-44b4-4378-91be-8a0e056856f1
+2015-05-06 02:27:36.979 [NotebookApp] Connecting to: tcp://127.0.0.1:33345
+2015-05-06 02:27:46.017 [NotebookApp] Connecting to: tcp://127.0.0.1:43853
+2015-05-06 02:27:46.042 [NotebookApp] Connecting to: tcp://127.0.0.1:51741
+2015-05-06 02:31:18.870 [NotebookApp] KernelRestarter: restarting kernel (1/5)
+WARNING:root:kernel b818718a-44b4-4378-91be-8a0e056856f1 restarted
+2015-05-06 02:34:11.065 [NotebookApp] Connecting to: tcp://127.0.0.1:55347
+2015-05-06 02:34:11.070 [NotebookApp] Kernel started: fb3af119-f1b8-4a80-8803-f8a739144945
+2015-05-06 02:34:23.864 [NotebookApp] Using existing kernel: fb3af119-f1b8-4a80-8803-f8a739144945
+2015-05-06 02:34:24.344 [NotebookApp] Connecting to: tcp://127.0.0.1:48022
+2015-05-06 02:34:24.345 [NotebookApp] Connecting to: tcp://127.0.0.1:56483
+2015-05-06 02:34:25.389 [NotebookApp] Connecting to: tcp://127.0.0.1:56569
+2015-05-06 02:34:39.092 [NotebookApp] Connecting to: tcp://127.0.0.1:35897
+2015-05-06 02:34:39.092 [NotebookApp] Kernel started: 61519d8e-6e66-4390-b2f2-2c82fff9a17e
+2015-05-06 02:34:40.381 [NotebookApp] Connecting to: tcp://127.0.0.1:34904
+2015-05-06 02:34:40.382 [NotebookApp] Connecting to: tcp://127.0.0.1:46900
+2015-05-06 02:34:40.383 [NotebookApp] Connecting to: tcp://127.0.0.1:35148
+2015-05-06 02:35:22.008 [NotebookApp] KernelRestarter: restarting kernel (1/5)
+2015-05-06 02:35:46.850 [NotebookApp] Kernel shutdown: 713ed9b3-4735-499b-8941-d6e16c1882a6
+2015-05-06 02:35:52.088 [NotebookApp] Kernel shutdown: e064905f-9fe1-4cc5-ac8b-bf3c63bf88df
+2015-05-06 02:35:54.278 [NotebookApp] Kernel shutdown: b818718a-44b4-4378-91be-8a0e056856f1
+2015-05-06 02:38:33.663 [NotebookApp] Kernel restarted: fb3af119-f1b8-4a80-8803-f8a739144945
+2015-05-06 02:38:34.782 [NotebookApp] Connecting to: tcp://127.0.0.1:48022
+2015-05-06 02:38:34.798 [NotebookApp] Connecting to: tcp://127.0.0.1:56483
+2015-05-06 02:38:34.823 [NotebookApp] Connecting to: tcp://127.0.0.1:56569
+2015-05-06 02:46:02.044 [NotebookApp] Kernel interrupted: fb3af119-f1b8-4a80-8803-f8a739144945
+2015-05-06 02:46:36.643 [NotebookApp] Kernel restarted: fb3af119-f1b8-4a80-8803-f8a739144945
+2015-05-06 02:46:36.738 [NotebookApp] Connecting to: tcp://127.0.0.1:48022
+2015-05-06 02:46:36.765 [NotebookApp] Connecting to: tcp://127.0.0.1:56483
+2015-05-06 02:46:36.790 [NotebookApp] Connecting to: tcp://127.0.0.1:56569
+2015-05-06 02:50:27.434 [NotebookApp] Kernel restarted: fb3af119-f1b8-4a80-8803-f8a739144945
+2015-05-06 02:50:27.530 [NotebookApp] Connecting to: tcp://127.0.0.1:48022
+2015-05-06 02:50:27.561 [NotebookApp] Connecting to: tcp://127.0.0.1:56483
+2015-05-06 02:50:27.585 [NotebookApp] Connecting to: tcp://127.0.0.1:56569
+2015-05-06 02:51:22.277 [tornado.general] WARNING | error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 110] Connection timed out
+WARNING:tornado.general:error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 110] Connection timed out
+2015-05-06 02:52:13.989 [tornado.general] WARNING | error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 110] Connection timed out
+WARNING:tornado.general:error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 110] Connection timed out
+2015-05-06 03:07:55.237 [NotebookApp] KernelRestarter: restarting kernel (1/5)
+2015-05-06 03:07:57.440 [NotebookApp] KernelRestarter: restarting kernel (1/5)
+WARNING:root:kernel fb3af119-f1b8-4a80-8803-f8a739144945 restarted
+2015-05-06 03:24:04.114 [NotebookApp] Using existing kernel: 1ff0b395-635d-4226-9928-902add165d6a
+2015-05-06 03:24:08.421 [NotebookApp] Connecting to: tcp://127.0.0.1:36065
+2015-05-06 03:24:08.741 [NotebookApp] Connecting to: tcp://127.0.0.1:60111
+2015-05-06 03:24:08.988 [NotebookApp] Connecting to: tcp://127.0.0.1:47729
+2015-05-06 03:35:50.566 [NotebookApp] Connecting to: tcp://127.0.0.1:34494
+2015-05-06 03:35:50.567 [NotebookApp] Kernel started: ab3c2189-dfb1-49c0-a791-b379feaea796
+2015-05-06 03:35:51.829 [NotebookApp] Connecting to: tcp://127.0.0.1:50837
+2015-05-06 03:35:51.830 [NotebookApp] Connecting to: tcp://127.0.0.1:46967
+2015-05-06 03:35:51.845 [NotebookApp] Connecting to: tcp://127.0.0.1:43368
+2015-05-06 03:57:38.173 [NotebookApp] Kernel shutdown: fb3af119-f1b8-4a80-8803-f8a739144945
+2015-05-06 03:58:03.371 [NotebookApp] Connecting to: tcp://127.0.0.1:59880
+2015-05-06 03:58:03.371 [NotebookApp] Kernel started: 46d284f6-7312-490b-9ac4-bb13fcedb4ca
+2015-05-06 03:58:26.349 [NotebookApp] Using existing kernel: 46d284f6-7312-490b-9ac4-bb13fcedb4ca
+2015-05-06 03:58:27.782 [NotebookApp] Connecting to: tcp://127.0.0.1:48527
+2015-05-06 03:58:27.812 [NotebookApp] Connecting to: tcp://127.0.0.1:40464
+2015-05-06 03:58:27.836 [NotebookApp] Connecting to: tcp://127.0.0.1:39843
+2015-05-06 03:58:54.906 [NotebookApp] Kernel restarted: 46d284f6-7312-490b-9ac4-bb13fcedb4ca
+2015-05-06 03:58:55.085 [NotebookApp] Connecting to: tcp://127.0.0.1:48527
+2015-05-06 03:58:55.110 [NotebookApp] Connecting to: tcp://127.0.0.1:40464
+2015-05-06 03:58:55.214 [NotebookApp] Connecting to: tcp://127.0.0.1:39843
+2015-05-06 04:15:12.180 [NotebookApp] Connecting to: tcp://127.0.0.1:33485
+2015-05-06 04:15:12.181 [NotebookApp] Kernel started: 8242df3c-4fa4-4ad4-b1a2-923097e23837
+2015-05-06 04:15:39.605 [NotebookApp] Connecting to: tcp://127.0.0.1:38223
+2015-05-06 04:16:04.710 [NotebookApp] Connecting to: tcp://127.0.0.1:38223
+2015-05-06 04:16:29.791 [NotebookApp] Connecting to: tcp://127.0.0.1:38223
+2015-05-06 04:16:29.947 [NotebookApp] Connecting to: tcp://127.0.0.1:59000
+2015-05-06 04:16:30.051 [NotebookApp] Connecting to: tcp://127.0.0.1:56002
+2015-05-06 04:30:06.907 [NotebookApp] KernelRestarter: restarting kernel (1/5)
+WARNING:root:kernel 46d284f6-7312-490b-9ac4-bb13fcedb4ca restarted
+2015-05-06 05:04:10.101 [NotebookApp] Connecting to: tcp://127.0.0.1:48527
+2015-05-06 05:04:10.161 [NotebookApp] Connecting to: tcp://127.0.0.1:40464
+2015-05-06 05:04:10.221 [NotebookApp] Connecting to: tcp://127.0.0.1:39843
+2015-05-06 05:11:10.031 [NotebookApp] Using existing profile dir: u'/root/.ipython/profile_default'
+2015-05-06 05:11:10.054 [NotebookApp] Using system MathJax
+2015-05-06 05:11:10.129 [NotebookApp] The port 8889 is already in use, trying another random port.
+2015-05-06 05:11:10.130 [NotebookApp] The port 8890 is already in use, trying another random port.
+2015-05-06 05:11:10.130 [NotebookApp] Serving notebooks from local directory: /root/NYCTaxiData/code/merged
+2015-05-06 05:11:10.130 [NotebookApp] The IPython Notebook is running at: http://158.85.189.101:8891/
+2015-05-06 05:11:10.130 [NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+2015-05-06 05:11:42.648 [NotebookApp] Connecting to: tcp://127.0.0.1:53360
+2015-05-06 05:11:42.650 [NotebookApp] Kernel started: f5fb0840-d284-45b4-a965-ba7ca461151a
+2015-05-06 05:11:43.566 [NotebookApp] Connecting to: tcp://127.0.0.1:48551
+2015-05-06 05:11:43.571 [NotebookApp] Connecting to: tcp://127.0.0.1:51008
+2015-05-06 05:11:43.589 [NotebookApp] Connecting to: tcp://127.0.0.1:55966
+2015-05-06 05:14:48.452 [NotebookApp] Connecting to: tcp://127.0.0.1:50680
+2015-05-06 05:14:48.453 [NotebookApp] Kernel started: 966060ef-4ffd-4756-ae7e-2a5d300b1f43
+2015-05-06 05:14:49.223 [NotebookApp] Connecting to: tcp://127.0.0.1:42154
+2015-05-06 05:14:49.289 [NotebookApp] Connecting to: tcp://127.0.0.1:43473
+2015-05-06 05:14:49.356 [NotebookApp] Connecting to: tcp://127.0.0.1:43495
+2015-05-06 13:10:26.671 [NotebookApp] Connecting to: tcp://127.0.0.1:36065
+2015-05-06 13:10:31.025 [NotebookApp] Connecting to: tcp://127.0.0.1:60111
+2015-05-06 15:19:56.171 [NotebookApp] Connecting to: tcp://127.0.0.1:36065
+2015-05-06 15:19:56.401 [NotebookApp] Connecting to: tcp://127.0.0.1:60111
+2015-05-06 15:19:56.710 [NotebookApp] Connecting to: tcp://127.0.0.1:47729
+2015-05-06 15:30:37.542 [NotebookApp] Connecting to: tcp://127.0.0.1:36065
+2015-05-06 15:31:03.105 [NotebookApp] Connecting to: tcp://127.0.0.1:36065
+2015-05-06 15:31:03.325 [NotebookApp] Connecting to: tcp://127.0.0.1:60111
+2015-05-06 15:31:03.478 [NotebookApp] Connecting to: tcp://127.0.0.1:47729
+2015-05-06 16:52:58.132 [NotebookApp] Connecting to: tcp://127.0.0.1:36065
+2015-05-06 16:52:58.247 [NotebookApp] Connecting to: tcp://127.0.0.1:60111
+2015-05-06 16:52:58.514 [NotebookApp] Connecting to: tcp://127.0.0.1:47729
+2015-05-07 00:58:27.902 [NotebookApp] Using existing kernel: f5fb0840-d284-45b4-a965-ba7ca461151a
+2015-05-07 00:58:29.383 [NotebookApp] Connecting to: tcp://127.0.0.1:48551
+2015-05-07 00:58:29.700 [NotebookApp] Connecting to: tcp://127.0.0.1:51008
+2015-05-07 00:58:29.704 [NotebookApp] Connecting to: tcp://127.0.0.1:55966
+2015-05-07 00:58:38.011 [NotebookApp] Using existing kernel: 966060ef-4ffd-4756-ae7e-2a5d300b1f43
+2015-05-07 00:58:39.268 [NotebookApp] Connecting to: tcp://127.0.0.1:42154
+2015-05-07 00:58:39.269 [NotebookApp] Connecting to: tcp://127.0.0.1:43473
+2015-05-07 00:58:39.279 [NotebookApp] Connecting to: tcp://127.0.0.1:43495
+2015-05-07 01:07:29.341 [NotebookApp] Using existing kernel: 5f9a6286-bc9e-4cc3-915c-3a436deffb9f
+2015-05-07 01:07:35.018 [NotebookApp] Connecting to: tcp://127.0.0.1:51691
+2015-05-07 01:07:35.165 [NotebookApp] Connecting to: tcp://127.0.0.1:34431
+2015-05-07 01:07:35.239 [NotebookApp] Connecting to: tcp://127.0.0.1:33911
+2015-05-07 01:10:26.454 [NotebookApp] Using existing kernel: 5f9a6286-bc9e-4cc3-915c-3a436deffb9f
+2015-05-07 01:10:33.184 [NotebookApp] Connecting to: tcp://127.0.0.1:51691
+2015-05-07 01:10:33.248 [NotebookApp] Connecting to: tcp://127.0.0.1:34431
+2015-05-07 01:10:33.263 [NotebookApp] Connecting to: tcp://127.0.0.1:33911
+2015-05-07 01:18:18.999 [NotebookApp] Connecting to: tcp://127.0.0.1:36890
+2015-05-07 01:18:19.000 [NotebookApp] Kernel started: 5835a122-f5e3-4013-ba00-6ffad367b9d9
+2015-05-07 01:18:23.477 [NotebookApp] Connecting to: tcp://127.0.0.1:54360
+2015-05-07 01:18:23.498 [NotebookApp] Connecting to: tcp://127.0.0.1:36048
+2015-05-07 01:18:23.516 [NotebookApp] Connecting to: tcp://127.0.0.1:42164
+2015-05-07 01:21:45.648 [NotebookApp] KernelRestarter: restarting kernel (1/5)
+WARNING:root:kernel f5fb0840-d284-45b4-a965-ba7ca461151a restarted
+WARNING:root:kernel f5fb0840-d284-45b4-a965-ba7ca461151a restarted
+2015-05-07 01:21:45.999 [NotebookApp] KernelRestarter: restarting kernel (1/5)
+WARNING:root:kernel 5835a122-f5e3-4013-ba00-6ffad367b9d9 restarted
+2015-05-07 01:22:20.667 [NotebookApp] Using existing kernel: 5835a122-f5e3-4013-ba00-6ffad367b9d9
+2015-05-07 01:22:40.166 [tornado.general] WARNING | error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 113] No route to host
+WARNING:tornado.general:error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 113] No route to host
+2015-05-07 01:22:48.806 [NotebookApp] Connecting to: tcp://127.0.0.1:54360
+2015-05-07 01:22:48.826 [NotebookApp] Connecting to: tcp://127.0.0.1:36048
+2015-05-07 01:22:55.790 [tornado.access] WARNING | 404 GET /mathjax/fonts/HTML-CSS/TeX/png/imagedata.js (136.152.142.178) 10.67ms
+WARNING:tornado.access:404 GET /mathjax/fonts/HTML-CSS/TeX/png/imagedata.js (136.152.142.178) 10.67ms
+2015-05-07 01:23:13.861 [NotebookApp] Connecting to: tcp://127.0.0.1:54360
+2015-05-07 01:23:13.881 [NotebookApp] Connecting to: tcp://127.0.0.1:36048
+2015-05-07 01:23:13.900 [NotebookApp] Connecting to: tcp://127.0.0.1:42164
+2015-05-07 01:24:17.516 [NotebookApp] Using existing kernel: 1ff0b395-635d-4226-9928-902add165d6a
+2015-05-07 01:24:20.051 [NotebookApp] Connecting to: tcp://127.0.0.1:36065
+2015-05-07 01:24:20.066 [NotebookApp] Connecting to: tcp://127.0.0.1:60111
+2015-05-07 01:24:20.082 [NotebookApp] Connecting to: tcp://127.0.0.1:47729
+2015-05-07 01:37:11.313 [tornado.general] WARNING | error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 113] No route to host
+WARNING:tornado.general:error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 113] No route to host
+2015-05-07 01:52:41.648 [NotebookApp] Using existing kernel: 1ff0b395-635d-4226-9928-902add165d6a
+2015-05-07 01:52:43.553 [NotebookApp] Connecting to: tcp://127.0.0.1:36065
+2015-05-07 01:52:44.629 [NotebookApp] Connecting to: tcp://127.0.0.1:60111
+2015-05-07 01:52:44.794 [NotebookApp] Connecting to: tcp://127.0.0.1:47729
+2015-05-07 02:04:15.309 [NotebookApp] Using existing kernel: f5fb0840-d284-45b4-a965-ba7ca461151a
+2015-05-07 02:04:15.604 [NotebookApp] Connecting to: tcp://127.0.0.1:48551
+2015-05-07 02:04:15.611 [NotebookApp] Connecting to: tcp://127.0.0.1:51008
+2015-05-07 02:04:15.662 [NotebookApp] Connecting to: tcp://127.0.0.1:55966
+2015-05-07 02:06:10.041 [NotebookApp] KernelRestarter: restarting kernel (1/5)
+2015-05-07 02:06:10.041 [NotebookApp] KernelRestarter: restarting kernel (1/5)
+WARNING:root:kernel 5835a122-f5e3-4013-ba00-6ffad367b9d9 restarted
+WARNING:root:kernel f5fb0840-d284-45b4-a965-ba7ca461151a restarted
+WARNING:root:kernel f5fb0840-d284-45b4-a965-ba7ca461151a restarted
+2015-05-07 02:06:36.941 [tornado.general] WARNING | 404 GET /57c91e05-4231-48f7-ac7c-eafe4bed2381 (136.152.142.129): Notebook does not exist: 57c91e05-4231-48f7-ac7c-eafe4bed2381
+WARNING:tornado.general:404 GET /57c91e05-4231-48f7-ac7c-eafe4bed2381 (136.152.142.129): Notebook does not exist: 57c91e05-4231-48f7-ac7c-eafe4bed2381
+2015-05-07 02:06:36.942 [tornado.access] WARNING | 404 GET /57c91e05-4231-48f7-ac7c-eafe4bed2381 (136.152.142.129) 1.32ms
+WARNING:tornado.access:404 GET /57c91e05-4231-48f7-ac7c-eafe4bed2381 (136.152.142.129) 1.32ms
+2015-05-07 02:07:47.804 [NotebookApp] Using existing kernel: f5fb0840-d284-45b4-a965-ba7ca461151a
+2015-05-07 02:07:48.029 [NotebookApp] Connecting to: tcp://127.0.0.1:48551
+2015-05-07 02:07:48.051 [NotebookApp] Connecting to: tcp://127.0.0.1:51008
+2015-05-07 02:07:48.055 [NotebookApp] Connecting to: tcp://127.0.0.1:55966
+2015-05-07 02:09:01.679 [NotebookApp] Using existing kernel: f5fb0840-d284-45b4-a965-ba7ca461151a
+2015-05-07 02:09:02.877 [NotebookApp] Connecting to: tcp://127.0.0.1:48551
+2015-05-07 02:09:03.353 [NotebookApp] Connecting to: tcp://127.0.0.1:51008
+2015-05-07 02:09:03.354 [NotebookApp] Connecting to: tcp://127.0.0.1:55966
+2015-05-07 02:20:37.926 [NotebookApp] Using existing kernel: f5fb0840-d284-45b4-a965-ba7ca461151a
+2015-05-07 02:20:39.900 [NotebookApp] Connecting to: tcp://127.0.0.1:48551
+2015-05-07 02:20:39.953 [NotebookApp] Connecting to: tcp://127.0.0.1:51008
+2015-05-07 02:20:39.954 [NotebookApp] Connecting to: tcp://127.0.0.1:55966
+2015-05-07 02:45:31.844 [NotebookApp] Kernel interrupted: f5fb0840-d284-45b4-a965-ba7ca461151a
+2015-05-07 02:45:46.384 [NotebookApp] Kernel restarted: f5fb0840-d284-45b4-a965-ba7ca461151a
+2015-05-07 02:45:46.481 [NotebookApp] Connecting to: tcp://127.0.0.1:48551
+2015-05-07 02:45:46.502 [NotebookApp] Connecting to: tcp://127.0.0.1:51008
+2015-05-07 02:45:46.524 [NotebookApp] Connecting to: tcp://127.0.0.1:55966
+2015-05-07 03:17:04.933 [tornado.general] WARNING | error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 110] Connection timed out
+WARNING:tornado.general:error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 110] Connection timed out
+2015-05-07 03:17:10.053 [tornado.general] WARNING | error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 110] Connection timed out
+WARNING:tornado.general:error on read
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 391, in _handle_read
+    if self._read_to_buffer() == 0:
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 447, in _read_to_buffer
+    chunk = self.read_from_fd()
+  File "/usr/lib/python2.7/dist-packages/tornado/iostream.py", line 683, in read_from_fd
+    chunk = self.socket.recv(self.read_chunk_size)
+error: [Errno 110] Connection timed out
+2015-05-07 12:59:12.482 [NotebookApp] Connecting to: tcp://127.0.0.1:54360
+2015-05-07 12:59:12.546 [NotebookApp] Connecting to: tcp://127.0.0.1:36048
+2015-05-07 12:59:12.595 [NotebookApp] Connecting to: tcp://127.0.0.1:42164
+2015-05-07 12:59:12.648 [NotebookApp] Connecting to: tcp://127.0.0.1:36065
+2015-05-07 12:59:12.698 [NotebookApp] Connecting to: tcp://127.0.0.1:60111
+2015-05-07 12:59:12.748 [NotebookApp] Connecting to: tcp://127.0.0.1:47729
+2015-05-07 13:12:03.410 [NotebookApp] Connecting to: tcp://127.0.0.1:36065
+2015-05-07 13:12:03.458 [NotebookApp] Connecting to: tcp://127.0.0.1:60111
+2015-05-07 13:12:03.508 [NotebookApp] Connecting to: tcp://127.0.0.1:47729
+2015-05-07 13:12:03.556 [NotebookApp] Connecting to: tcp://127.0.0.1:54360
+2015-05-07 13:12:03.606 [NotebookApp] Connecting to: tcp://127.0.0.1:36048
+2015-05-07 13:12:03.654 [NotebookApp] Connecting to: tcp://127.0.0.1:42164
